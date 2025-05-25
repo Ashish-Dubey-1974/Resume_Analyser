@@ -8,7 +8,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Load job dataset
-data_path = "updated_job_skills_dataset.csv"
+data_path = "dataset.csv"
 jobs_df = pd.read_csv(data_path)
 
 # Utility functions
